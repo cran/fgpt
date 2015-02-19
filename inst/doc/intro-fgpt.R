@@ -5,8 +5,7 @@ library(knitr)
 opts_chunk$set(fig.path='figure/minimal-', fig.align='center', fig.show='hold')
 options(replace.assign=TRUE,width=90)
 
-## ----install-load-----------------------------------------------------------------------
-install.packages("fgpt", repos="http://R-Forge.R-project.org")
+## ---------------------------------------------------------------------------------------
 library("fgpt")
 
 ## ---------------------------------------------------------------------------------------
